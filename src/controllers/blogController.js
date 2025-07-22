@@ -62,5 +62,5 @@ const patchBlog = asyncHandler(async (req, res) => {
 })
 
  
- module.exports= { createBlog, getAllBlogs, deleteBlog, getSingleBlogById}
+ module.exports= { createBlog, getAllBlogs, deleteBlog, getSingleBlogById, patchBlog}
 
